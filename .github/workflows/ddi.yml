@@ -3,8 +3,8 @@ on:
   repository_dispatch:
     types: ServerStart
   workflow_dispatch:
-  schedule:
-    - cron: '0 */6 * * *'  # every day at midnight
+ # schedule:
+   # - cron: '0 */6 * * *'  # every day at midnight
     
 jobs:
   StartServer:
